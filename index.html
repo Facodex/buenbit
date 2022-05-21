@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Buena copia</title>
+    <!-- styles css -->
+    <link rel="stylesheet" href="styles/buenbit.css">
+    <!-- fonts body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- fonts logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+  </head>
+  <body onload="hello()">
+    <!-- menu superior -->
+    <header>
+      <ul>
+        <li id="logo">BitZone</li>
+        <li class="menu"> <a href="#" class="link" >Cotizaciones</a>
+          <ul class="coti__li">
+            <li> <a href="#">DAI</a></li>
+            <li> <a href="#">BTC</a></li>
+            <li> <a href="#">ETHER</a></li>
+          </ul></li>
+        <li class="menu"> <a href="#" class="link">Productos</a>
+          <ul class="coti__li">
+            <li> <a href="#">BUEN</a></li>
+            <li> <a href="#">BUEN PRO</a></li>
+            <li> <a href="#">TARJETA</a></li>
+            <li> <a href="#">PRESTAMOS</a></li>
+          </ul></li>
+        <li class="menu"> <a href="#" class="link">Aprende</a>
+          <ul class="coti__li">
+            <li> <a href="#">BLOG</a></li>
+            <li> <a href="#">YOUTUBE</a></li>
+            <li> <a href="#">PODCAST</a></li>
+          </ul></li>
+        <li class="menu"> <a href="#" class="link">Ayuda</a>
+          <ul class="coti__li">
+            <li> <a href="#">SOPORTE</a></li>
+            <li> <a href="#">CONSULTAS</a></li>
+          </ul></li>
+        <li> <a href="#" id="linkdes">Descarga app</a></li>
+        <li><button type="button" name="button" id="buttonone" class="button">Crear cuenta</button></li>
+        <li><button type="button" name="button" id="buttontwo" class="button">Ingresar</button></li>
+      </ul>
+    </header>
+    <!-- formulario de inicio de sesion -->
+      <div>
+        <form id="formulario">
+          <div class="contain">
+            <h1>Inicia Sesion</h1>
+              <input type="email"  id="inputem" placeholder="juan.perez@gmail.com"> <br>
+              <input type="password" placeholder="*******"> <br> <br>
+              <input type="button" value="iniciar" id="btniniciar">
+          </div>
+        </form>
+      </div>
+      <!-- formulario de registro de usuario -->
+      <div>
+        <form id="formulario1">
+          <div class="contain">
+            <h1>Registrate</h1>
+              <input type="text" placeholder="Fabricio Usuriaga"> <br> <br>
+              <input type="email" placeholder="juan.perez@gmail.com"> <br> <br>
+              <input type="password" placeholder="*******"> <br> <br>
+              <input type="date" placeholder="08/07/2021" > <br> <br>
+              <input type="button" value="registrarme" id="btnreg">
+          </div>
+        </form>
+      </div>
+      <!-- section de portada -->
+    <section class="portada">
+      <div id="animacion">
+        <img src="svg/portada.svg">
+      </div>
+      <div id="titulo">
+        <h1>Compra y vende criptomonedas como un experto</h1>
+        <h2>El momento es ahora</h2>
+      </div>
+    </section>
+    <section class="criptos">
+      <div>
+        <a href="#"><h2>Crea tu portafolio</h2><img src="svg/chicacripto.svg"></a>
+      </div>
+      <div>
+        <a href="#"><h2>Compra criptos</h2><img src="svg/compra.svg"></a>
+      </div>
+    </section>
+    <div class="blog">
+      <h2>BitZone</h2>
+      <h1>Preguntas Frecuentes</h1>
+      <a href="#">¿Que son las criptomonedas?</a>
+      <br>
+      <span>Son activos digitales que se hacen llamar criptomonedas por su informacion encriptada que se transaccionan sobre una blockchain.</span>
+      <br>
+      <a href="#">¿Que es una blockchain?</a>
+      <br>
+      <span>Es un sistema informatico creado en forma de una cadena de bloques que le permite a cada bloque tener la informacion guardada individualmente. Gracias a esta
+      estructura sea hace imposible hackear una blockchain.</span>
+      <br>
+      <a href="#">¿De cuanto es la compra mínima?</a>
+      <span>Hacer una operacion tiene un precio minimo de 10usd.</span>
+      <br>
+    </div>
+    <!-- footer section -->
+    <footer>
+      <ul>
+        <h2>Cotizaciones</h2>
+        <li><a href="#">DAI</a> </li>
+        <li><a href="#">ETHERUM</a> </li>
+        <li><a href="#">BITCOIN</a> </li>
+      </ul>
+      <ul>
+        <h2>Servicios</h2>
+        <li><a href="#">PORTAFOLIO</a> </li>
+        <li><a href="#">CUENTA</a> </li>
+        <li><a href="#">SEGURIDAD</a> </li>
+      </ul>
+      <ul>
+        <h2>Mercado</h2>
+        <li><a href="#">CoinMarketCap</a> </li>
+        <li><a href="#">Coingecko</a> </li> <br>
+      </ul>
+      <ul>
+        <h2>Contactos</h2>
+        <li><a href="#">INSTAGRAM</a> </li>
+        <li><a href="#">TWITTER</a> </li>
+        <li><a href="#">GMAIL</a> </li>
+      </ul>
+    </footer>
+    <script src="functions/buenbit.js" charset="utf-8"></script>
+    <script src="functions/functions.js" charset="utf-8"></script>
+  </body>
+</html>
